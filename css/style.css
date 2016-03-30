@@ -9,9 +9,11 @@ div {
   position: relative;
   border: 3px solid black;
   background-color: #999999;
+  width: 100%;
 }
 h2 {
-  position: absolute;
+  width: 150px;
+  text-align: center;
   border-bottom: 3px solid black;
   border-left: 3px solid black;
   float: right;
@@ -22,16 +24,13 @@ p {
 }
 #Chicken {
   background: #ffb3b3;
-  width: 150%;
   color: black;
 }
 #Beef {
   background: #bf4040;
-  width: 200%;
 }
 #Sushi {
   background: #ffe699;
-  width: 180%;
   color: black;
 } 
 @media (min-width: 992px) {
