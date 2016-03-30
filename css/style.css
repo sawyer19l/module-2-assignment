@@ -1,7 +1,6 @@
-p {
+* {
   box-sizing: border-box;
   font-family: "Trebuchet MS",Helvetica,sans-serif;
-  clear: right;
 }
 h1 {
   text-align: center;
@@ -9,30 +8,29 @@ h1 {
 div {
   position: relative;
   border: 3px solid black;
-  margin: 10px;
   background-color: #999999;
-  width: 100%;
 }
 h2 {
   position: absolute;
   border-bottom: 3px solid black;
   border-left: 3px solid black;
   float: right;
-  font-color: white;
+  color: white;
+}
+p {
+  clear: right;
 }
 #Chicken {
   background: #ffb3b3;
-  padding-left: 25%;
-  padding-right: 25%;
-  font-color: black;
+  width: 30px;
+  color: black;
 }
 #Beef {
   background: #bf4040;
-  font-color: white;
 }
 #Sushi {
   background: #ffe699;
-  font-color: black;
+  color: black;
 } 
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
