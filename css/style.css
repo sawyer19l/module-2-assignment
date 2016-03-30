@@ -18,18 +18,20 @@ h2 {
   color: white;
 }
 p {
-  clear: right;
+  clear: both;
 }
 #Chicken {
   background: #ffb3b3;
-  width: 30px;
+  width: 150%;
   color: black;
 }
 #Beef {
   background: #bf4040;
+  width: 200%;
 }
 #Sushi {
   background: #ffe699;
+  width: 180%;
   color: black;
 } 
 @media (min-width: 992px) {
