@@ -57,11 +57,11 @@ div {
   background: #ffe699;
   color: black;
 } 
-div.col-lg-4 > h2.Beef {
+div.col-lg-4 > h2#Beef {
   margin-left: 30px;
   margin-right: 20px;
 }
-div.col-md-6 > h2.Beef {
+div.col-md-6 > h2#Beef {
   margin-left: 20px;
 }
 @media (min-width: 992px) {
