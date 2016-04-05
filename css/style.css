@@ -72,7 +72,7 @@ div {
     width:25%;
   }
   .col-lg-4 {
-    width: calc(33% -16.7px );
+    width: calc(33% - 16.7px);
   }
   .col-lg-5 {
     width:41.66%;
